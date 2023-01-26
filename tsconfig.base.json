@@ -14,7 +14,23 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-angular-mono/frontend/fruit/feat-apple": [
+        "libs/frontend/fruit/feat-apple/src/index.ts"
+      ],
+      "@nx-angular-mono/frontend/fruit/feat-banana": [
+        "libs/frontend/fruit/feat-banana/src/index.ts"
+      ],
+      "@nx-angular-mono/frontend/fruit/shell": [
+        "libs/frontend/fruit/shell/src/index.ts"
+      ],
+      "@nx-angular-mono/frontend/fruit/very-very-very-long-prefix-then-apple": [
+        "libs/frontend/fruit/very-very-very-long-prefix-then-apple/src/index.ts"
+      ],
+      "@nx-angular-mono/frontend/fruit/very-very-very-long-prefix-then-banana": [
+        "libs/frontend/fruit/very-very-very-long-prefix-then-banana/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
